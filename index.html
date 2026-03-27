@@ -2,59 +2,188 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>My Profile</title>
+<title>Orange Marmalade</title>
+
 <style>
-    body {
-        margin: 0;
-        font-family: 'Segoe UI', sans-serif;
-        background: linear-gradient(135deg, #667eea, #764ba2);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8f0;
+}
 
-    .card {
-        background: white;
-        padding: 30px;
-        border-radius: 20px;
-        box-shadow: 0 15px 40px rgba(0,0,0,0.3);
-        text-align: center;
-        width: 320px;
-    }
+header {
+    background: linear-gradient(to right, orange, #ff6600);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
 
-    h2 {
-        margin-bottom: 10px;
-    }
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
 
-    p {
-        color: #555;
-    }
+.container {
+    padding: 30px;
+    text-align: center;
+}
 
-    .btn {
-        margin-top: 20px;
-        padding: 10px 20px;
-        background: #667eea;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-    }
+.product-img {
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
 
-    .btn:hover {
-        background: #5a67d8;
-    }
+.tagline {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #444;
+}
+
+.section {
+    margin-top: 40px;
+    text-align: left;
+    display: inline-block;
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    width: 70%;
+}
+
+.section h2 {
+    color: orange;
+}
+
+.company {
+    margin-top: 40px;
+    background: #fff3e6;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 70%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.company h2 {
+    color: #ff6600;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background: #333;
+    color: white;
+    text-align: center;
+}
+
+button {
+    background: orange;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #ff6600;
+}
+
+a {
+    text-decoration: none;
+}
 </style>
+
 </head>
+
 <body>
 
-<div class="card">
-    <h2>Archita</h2>
-    <p>Instagrame Id:-cherry_mama_01 </p>
-    <p>Bussiness Women</p>
+<header>
+    <h1>Zesty Orange Marmalade 🍊</h1>
+    <p>Sweet • Spicy • Natural</p>
+</header>
 
-    <button class="btn">Contact Me</button>
+<div class="container">
+
+    <!-- IMAGE -->
+    <img src="https://raw.githubusercontent.com/Shakti077/Barcode-site/main/ChatGPT%20Image%20Mar%2027,%202026,%2010_40_01%20PM.png" 
+         alt="Orange Marmalade" class="product-img">
+
+    <p class="tagline">
+        A delicious blend of citrus and spices crafted with love.
+    </p>
+
+    <button onclick="alert('Order feature coming soon!')">Buy Now</button>
+
+    <!-- INGREDIENTS -->
+    <div class="section">
+        <h2>Ingredients</h2>
+        <ul>
+            <li>Tomato pulp</li>
+            <li>Sugar</li>
+            <li>Salt</li>
+            <li>Onion</li>
+            <li>Ginger</li>
+            <li>Garlic</li>
+            <li>Red chilli powder</li>
+            <li>Cinnamon</li>
+            <li>Cardamom</li>
+            <li>Aniseed</li>
+            <li>Cumin</li>
+            <li>Black pepper</li>
+            <li>Clove</li>
+        </ul>
+    </div>
+
+    <!-- HOW IT IS MADE -->
+    <div class="section">
+        <h2>How It Is Made</h2>
+        <ol>
+            <li>Fresh oranges are selected and cleaned properly.</li>
+            <li>Peels and pulp are processed to retain natural flavor.</li>
+            <li>Spices and ingredients are carefully blended.</li>
+            <li>The mixture is slow-cooked for rich taste.</li>
+            <li>Hygienic packaging ensures freshness.</li>
+        </ol>
+    </div>
+
+    <!-- PRODUCT DETAILS -->
+    <div class="section">
+        <h2>Product Details</h2>
+        <p><strong>Net Weight:</strong> 200g</p>
+        <p><strong>Type:</strong> Sweet & Spicy Spread</p>
+        <p><strong>Storage:</strong> Store in a cool and dry place</p>
+    </div>
+
+    <!-- COMPANY DETAILS -->
+    <div class="company">
+        <h2>Manufactured By</h2>
+        <p><strong>CitrusGold Foods Pvt. Ltd.</strong></p>
+        <p>123, Flavor Street, Food City, India</p>
+        <p>Email: support@citrusgold.com</p>
+        <p>Phone: +91 98765 43210</p>
+
+    </div>
+
 </div>
+
+<footer>
+    <p>
+        © 2026 CitrusGold Foods Pvt. Ltd.
+    </p>
+     <p>
+        Designed & Developed by Shaktiranjan Sahoo
+    </p>
+    <p>
+            📸 Follow me on Instagram:
+            <a href="https://www.instagram.com/spshaktisahoo077/" target="_blank" style="color: orange; font-weight: bold;">
+                @spshaktisahoo077
+            </a>
+        </p>
+</footer>
 
 </body>
 </html>
